@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #cbeaf8;
+  margin: 0;
+  padding: 0;
+}
+table {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background: #ddd5d5;
+  border-collapse: collapse;
+  border: 1px solid #333;
+  text-align: center;
+}
+td {
+  padding: 5px 63px;
+  border: 1px solid #050505;
+  color: #000;
+}
+.form {
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 20px auto 0;
+}
+.wrap-button {
+  display: flex;
+  justify-content:center;
+  background: #eee8e8;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ed4c5c;
+  border: 2px solid  #ed4c5c;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  margin: 30px auto;
+}
+button {
+  cursor: pointer;
+  background: #ed4c5c;
+  outline: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #0f0f0f;
+  border-radius: 2px;
+}
+.delete-btn {
+  display: block;
+  padding: 4px 12px;
+}
+.edit-btn {
+  padding: 4px 22px;
+  margin-bottom: 5px;
+  display: block;
+}
